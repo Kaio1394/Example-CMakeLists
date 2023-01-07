@@ -1,9 +1,9 @@
 # Example-CMakeLists-config
 
-1 - create CMake file
-2 - create a folder with name 'build'. This folder will build CMake all of archives.
-3 - cd /build
-4 - cmake ..
-5 - cmake build .   -> will genereate a archive 'build/Executable'
-6 - Execute project through command line './Executable'
-7 - to edit archive in vscode (sudo chown -R username path)
+- create CMake file
+- create a folder with name 'build'. This folder will build CMake all of archives.
+- cd /build
+- cmake ..
+- cmake build .   -> will genereate a archive 'build/Executable'
+- Execute project through command line './Executable'
+- to edit archive in vscode (sudo chown -R username path)
