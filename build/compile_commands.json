@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/cmake/2_BASIC_PROJECT/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/cmake/2_BASIC_PROJECT/my_lib.cc",
+  "file": "/home/cmake/2_BASIC_PROJECT/my_lib.cc"
+},
+{
+  "directory": "/home/cmake/2_BASIC_PROJECT/build",
+  "command": "/usr/bin/g++   -g -o CMakeFiles/Executable.dir/main.cc.o -c /home/cmake/2_BASIC_PROJECT/main.cc",
+  "file": "/home/cmake/2_BASIC_PROJECT/main.cc"
+}
+]

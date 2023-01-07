@@ -1,0 +1,4 @@
+/home/cmake/2_BASIC_PROJECT/build/CMakeFiles/Library.dir
+/home/cmake/2_BASIC_PROJECT/build/CMakeFiles/Executable.dir
+/home/cmake/2_BASIC_PROJECT/build/CMakeFiles/edit_cache.dir
+/home/cmake/2_BASIC_PROJECT/build/CMakeFiles/rebuild_cache.dir
