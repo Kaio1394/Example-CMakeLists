@@ -1,12 +1,7 @@
 [
 {
   "directory": "/home/cmake/2_BASIC_PROJECT/build/src/my_libs",
-  "command": "/usr/bin/g++  -I/home/cmake/2_BASIC_PROJECT/src/my_libs/. -g -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/cmake/2_BASIC_PROJECT/src/my_libs/my_lib.cc",
+  "command": "/usr/bin/g++  -I/home/cmake/2_BASIC_PROJECT/src/my_libs/. -I/home/cmake/2_BASIC_PROJECT/build/configured_files/include -g -std=c++17 -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/cmake/2_BASIC_PROJECT/src/my_libs/my_lib.cc",
   "file": "/home/cmake/2_BASIC_PROJECT/src/my_libs/my_lib.cc"
-},
-{
-  "directory": "/home/cmake/2_BASIC_PROJECT/build/app",
-  "command": "/usr/bin/g++  -I/home/cmake/2_BASIC_PROJECT/src/my_libs/. -g -o CMakeFiles/Executable.dir/main.cc.o -c /home/cmake/2_BASIC_PROJECT/app/main.cc",
-  "file": "/home/cmake/2_BASIC_PROJECT/app/main.cc"
 }
 ]

@@ -8,10 +8,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../app/CMakeLists.txt"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
+  "../configured/CMakeLists.txt"
+  "../configured/config.hpp.in"
   "../src/CMakeLists.txt"
   "../src/my_libs/CMakeLists.txt"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -44,11 +45,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/CMakeFiles/CMakeDirectoryInformation.cmake"
   "src/my_libs/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "configured_files/include/config.hpp"
+  "configured/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "src/my_libs/CMakeFiles/Library.dir/DependInfo.cmake"
-  "app/CMakeFiles/Executable.dir/DependInfo.cmake"
   )

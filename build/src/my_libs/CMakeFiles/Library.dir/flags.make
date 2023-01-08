@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cmake/2_BASIC_PROJECT/src/my_libs/.
+CXX_INCLUDES = -I/home/cmake/2_BASIC_PROJECT/src/my_libs/. -I/home/cmake/2_BASIC_PROJECT/build/configured_files/include
 
-CXX_FLAGS = -g
+CXX_FLAGS = -g -std=c++17
 

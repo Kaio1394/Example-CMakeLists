@@ -1,0 +1,16 @@
+#pragma once
+
+#include <cstdint>
+#include <string_view>
+
+using std::string_view;
+using std::int32_t;
+
+static constexpr string_view project_name = "@PROJECT_NAME@";
+static constexpr string_view project_version = "@PROJECT_VERSION@";
+
+static constexpr int32_t project_version_major{@PROJECT_VERSION_MAJOR@};
+// New feature
+static constexpr int32_t project_version_minor{@PROJECT_VERSION_MINOR@};
+// Bug fix
+static constexpr int32_t project_version_patch{@PROJECT_VERSION_PATCH@};

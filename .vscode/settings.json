@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "*.in": "cpp",
+        "string_view": "cpp"
     }
 }
