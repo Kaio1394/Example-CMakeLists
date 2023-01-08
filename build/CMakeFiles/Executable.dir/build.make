@@ -69,28 +69,28 @@ include CMakeFiles/Executable.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Executable.dir/flags.make
 
-CMakeFiles/Executable.dir/main.cc.o: CMakeFiles/Executable.dir/flags.make
-CMakeFiles/Executable.dir/main.cc.o: ../main.cc
-CMakeFiles/Executable.dir/main.cc.o: CMakeFiles/Executable.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/2_BASIC_PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Executable.dir/main.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Executable.dir/main.cc.o -MF CMakeFiles/Executable.dir/main.cc.o.d -o CMakeFiles/Executable.dir/main.cc.o -c /home/cmake/2_BASIC_PROJECT/main.cc
+CMakeFiles/Executable.dir/app/main.cc.o: CMakeFiles/Executable.dir/flags.make
+CMakeFiles/Executable.dir/app/main.cc.o: ../app/main.cc
+CMakeFiles/Executable.dir/app/main.cc.o: CMakeFiles/Executable.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/2_BASIC_PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Executable.dir/app/main.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Executable.dir/app/main.cc.o -MF CMakeFiles/Executable.dir/app/main.cc.o.d -o CMakeFiles/Executable.dir/app/main.cc.o -c /home/cmake/2_BASIC_PROJECT/app/main.cc
 
-CMakeFiles/Executable.dir/main.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Executable.dir/main.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/2_BASIC_PROJECT/main.cc > CMakeFiles/Executable.dir/main.cc.i
+CMakeFiles/Executable.dir/app/main.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Executable.dir/app/main.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/2_BASIC_PROJECT/app/main.cc > CMakeFiles/Executable.dir/app/main.cc.i
 
-CMakeFiles/Executable.dir/main.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Executable.dir/main.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/2_BASIC_PROJECT/main.cc -o CMakeFiles/Executable.dir/main.cc.s
+CMakeFiles/Executable.dir/app/main.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Executable.dir/app/main.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/2_BASIC_PROJECT/app/main.cc -o CMakeFiles/Executable.dir/app/main.cc.s
 
 # Object files for target Executable
 Executable_OBJECTS = \
-"CMakeFiles/Executable.dir/main.cc.o"
+"CMakeFiles/Executable.dir/app/main.cc.o"
 
 # External object files for target Executable
 Executable_EXTERNAL_OBJECTS =
 
-Executable: CMakeFiles/Executable.dir/main.cc.o
+Executable: CMakeFiles/Executable.dir/app/main.cc.o
 Executable: CMakeFiles/Executable.dir/build.make
 Executable: libLibrary.a
 Executable: CMakeFiles/Executable.dir/link.txt

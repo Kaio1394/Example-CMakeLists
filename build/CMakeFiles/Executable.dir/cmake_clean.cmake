@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Executable.dir/main.cc.o"
-  "CMakeFiles/Executable.dir/main.cc.o.d"
+  "CMakeFiles/Executable.dir/app/main.cc.o"
+  "CMakeFiles/Executable.dir/app/main.cc.o.d"
   "Executable"
   "Executable.pdb"
 )

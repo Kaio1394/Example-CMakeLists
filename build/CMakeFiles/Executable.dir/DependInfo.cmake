@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/cmake/2_BASIC_PROJECT/main.cc" "CMakeFiles/Executable.dir/main.cc.o" "gcc" "CMakeFiles/Executable.dir/main.cc.o.d"
+  "/home/cmake/2_BASIC_PROJECT/app/main.cc" "CMakeFiles/Executable.dir/app/main.cc.o" "gcc" "CMakeFiles/Executable.dir/app/main.cc.o.d"
   )
 
 # Targets to which this target links.

@@ -69,28 +69,28 @@ include CMakeFiles/Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Library.dir/flags.make
 
-CMakeFiles/Library.dir/my_lib.cc.o: CMakeFiles/Library.dir/flags.make
-CMakeFiles/Library.dir/my_lib.cc.o: ../my_lib.cc
-CMakeFiles/Library.dir/my_lib.cc.o: CMakeFiles/Library.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/2_BASIC_PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Library.dir/my_lib.cc.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Library.dir/my_lib.cc.o -MF CMakeFiles/Library.dir/my_lib.cc.o.d -o CMakeFiles/Library.dir/my_lib.cc.o -c /home/cmake/2_BASIC_PROJECT/my_lib.cc
+CMakeFiles/Library.dir/src/my_lib.cc.o: CMakeFiles/Library.dir/flags.make
+CMakeFiles/Library.dir/src/my_lib.cc.o: ../src/my_lib.cc
+CMakeFiles/Library.dir/src/my_lib.cc.o: CMakeFiles/Library.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cmake/2_BASIC_PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Library.dir/src/my_lib.cc.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Library.dir/src/my_lib.cc.o -MF CMakeFiles/Library.dir/src/my_lib.cc.o.d -o CMakeFiles/Library.dir/src/my_lib.cc.o -c /home/cmake/2_BASIC_PROJECT/src/my_lib.cc
 
-CMakeFiles/Library.dir/my_lib.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/my_lib.cc.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/2_BASIC_PROJECT/my_lib.cc > CMakeFiles/Library.dir/my_lib.cc.i
+CMakeFiles/Library.dir/src/my_lib.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/my_lib.cc.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cmake/2_BASIC_PROJECT/src/my_lib.cc > CMakeFiles/Library.dir/src/my_lib.cc.i
 
-CMakeFiles/Library.dir/my_lib.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/my_lib.cc.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/2_BASIC_PROJECT/my_lib.cc -o CMakeFiles/Library.dir/my_lib.cc.s
+CMakeFiles/Library.dir/src/my_lib.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/my_lib.cc.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cmake/2_BASIC_PROJECT/src/my_lib.cc -o CMakeFiles/Library.dir/src/my_lib.cc.s
 
 # Object files for target Library
 Library_OBJECTS = \
-"CMakeFiles/Library.dir/my_lib.cc.o"
+"CMakeFiles/Library.dir/src/my_lib.cc.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
 
-libLibrary.a: CMakeFiles/Library.dir/my_lib.cc.o
+libLibrary.a: CMakeFiles/Library.dir/src/my_lib.cc.o
 libLibrary.a: CMakeFiles/Library.dir/build.make
 libLibrary.a: CMakeFiles/Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cmake/2_BASIC_PROJECT/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLibrary.a"
